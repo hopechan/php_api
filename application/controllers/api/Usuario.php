@@ -52,11 +52,6 @@ class Usuario extends REST_Controller {
             $this->response($response, $status);
         }
     }
-
-    public function get_me_data_post(){
-        header("Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub21icmUiOiJhZG1pbiJ9.oCJdU9w3YZugj9i8XFLsDHvp18BaCHbjIC1oCig3jf8");
-        $data = $this->verify_request();
-    }
 }
 ?>
 
